@@ -5,15 +5,15 @@ Ogni livello non sa nulla dei livelli adiacenti.
 
 Livelli:
 - Il livello **DATA** Gestisce tutte le iterazioni con le api eo con il device. Ad esempio se la risposta di un enpoint è cambiata viene gestita qui come la renominazione di un paramentro o lo spostamento. Questo livello astrae il database che si sta usando, **DOMAIN** non deve sapere se si sta utilizzando o no un database e con quali dati di accesso ad esso.
-- Il livello **DOMAIN** gestisce la logica dei dati. Si occupa principalmente di eseguire *azioni*. Ad esempio la modifica di un valore.   
+- Il livello **DOMAIN** gestisce la logica dei dati. Si occupa principalmente di eseguire *azioni*. Ad esempio la modifica di un valore eo la validazione.   
 - Il livello **PRESENTAION** gestisce la grafica. Chiama il livello **DOMAIN** ogni volta che deve eseguire un'*azione*.
 
-### Standard
+## Standard
 Comunicazione:
 - **PRESENTATION** -> **RawEntity** -> **DOMAIN** -> **Request** -> **DATA**
 - **DATA** -> **Response** -> **DOMAIN** -> **Entity** -> **PRESENTATION**
 
-##### DATA
+#### DATA
 I metodi iniziano con:
 - *create*: un metodo di creazione (crea il dato)
 - *get*: un metodo di ricerca (restituiscimi il dato o ricerca il dato)
@@ -22,10 +22,19 @@ I metodi iniziano con:
 - *save*: un metodo di creazione o di aggiornamento (crea il dato se non esiste altrimente aggiorna il dato)
 - *set*: un metodo di aggiornamento dato una chiave (aggiorna il dato n12 con questo valore)
 
-Le classi:
+##### Le classi
 - *params*: Definisce tutte le chiavi di accesso per un dato e la *Request*: (i valori nel path di un endpoint e il body)
 - *Request*: La richiesta = Il dato
 - *Response*: Il risultato = Il dato
 
-Api:
+##### Api
 Le query vanno spartite tra i params e la request in base al significato del valore
+
+#### PRESENTATION
+Utilizza pattern come MVC, BLoC, Cubit, Model e molti altri per gestire la grafica.
+La grafica puo essere di React, Flutter, ... per ciò i componenti sono ad esempio component, widgets, ...
+I "presentatori" si occupano di rendere i dati facilmente gestibili per i componenti grafici.
+I componenti grafici si dividono in:
+- *View* / *Builder*: coloro che costruiscono la grafica basata sulle *Entity*
+- *appName*: coloro che costruiscono la grafica basata sulle grafice, sono completamente indipendenti dalle *Entity*
+- * *: coloro che costruiscono la grafica in base a cosa vogliono mostrare
