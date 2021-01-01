@@ -34,6 +34,7 @@ Le query vanno spartite tra i params e la request in base al significato del val
 Utilizza pattern come MVC, BLoC, Cubit, Model e molti altri per gestire la grafica.
 La grafica puo essere di React, Flutter, ... per ciò i componenti sono ad esempio component, widgets, ...
 I "presentatori" si occupano di rendere i dati facilmente gestibili per i componenti grafici.
+I "presentatori" possono eseguire delle *Action* in catena o simultanemente esse sono usa e getta per tanto espongono uno stream con il progresso 0 -> 1 e -1 quando l'azione è fallita.
 I componenti grafici si dividono in:
 - *View* / *Builder*: coloro che costruiscono la grafica basata sulle *Entity*
 - *appName*: coloro che costruiscono la grafica basata sulle grafice, sono completamente indipendenti dalle *Entity*
