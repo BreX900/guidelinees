@@ -15,12 +15,13 @@ Comunicazione:
 
 #### DATA
 I metodi iniziano con:
-- *create*: un metodo di creazione (crea il dato)
-- *get*: un metodo di ricerca (restituiscimi il dato o ricerca il dato)
-- *update*: un metodo di aggiornamento (aggiorna il dato)
-- *delete*: un metodo di cancellazione (cancella il dato)
-- *save*: un metodo di creazione o di aggiornamento (crea il dato se non esiste altrimente aggiorna il dato)
-- *set*: un metodo di aggiornamento dato una chiave (aggiorna il dato n12 con questo valore)
+- *create*: un metodo per creare il dato
+- *read*: un metodo per recuperare un dato già esistente
+- *update*: un metodo per aggiornare un dato già esistente
+- *delete*: un metodo per cancellare un dato già esistente
+
+- *get* (create+read): un metodo per recuperare un dato, se non esiste lo crea
+- *save* (create+read+update): un metodo per recuperare un dato, se non esiste lo aggiorna altrimenti lo crea
 
 ##### Le classi
 - *params*: Definisce tutte le chiavi di accesso per un dato e la *Request*: (i valori nel path di un endpoint e il body)
