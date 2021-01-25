@@ -20,7 +20,7 @@ I metodi iniziano con:
 - *update*: un metodo per aggiornare un dato già esistente
 - *delete*: un metodo per cancellare un dato già esistente
 
-- *get* (create+read): un metodo per recuperare un dato, se non esiste lo crea
+- *retieve* (create+read): un metodo per recuperare un dato, se non esiste lo crea
 - *save* (create+read+update): un metodo per recuperare un dato, se non esiste lo aggiorna altrimenti lo crea
 
 ##### Le classi
