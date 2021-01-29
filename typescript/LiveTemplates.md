@@ -17,7 +17,7 @@ export class $NAME$Model extends Model {
   private _status: $NAME$ModelStatus = $INITIAL_STATUS$;
   private _failure: Failure
   
-  constructor({}: {}) {
+  constructor({$END$}: {}) {
     super();
   }
   
@@ -54,7 +54,7 @@ export class $NAME$Model extends Model {
   }
   
   private async loading(): void {
-  
+    $END$
   }
 }
 ```
