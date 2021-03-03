@@ -13,7 +13,7 @@
 ### Stream
 - [Stream](https://medium.com/dartlang/dart-asynchronous-programming-streams-2569a993324d)
 
-## BLoC
+### BLoC
 - Bloc with bloc package:
   * [BLoC Library](https://bloclibrary.dev/#/)
   * [BLoC Article](https://medium.com/flutter-community/flutter-bloc-pattern-for-dummies-like-me-c22d40f05a56)
