@@ -1,0 +1,2 @@
+- [Edit Svg Path](https://yqnn.github.io/svg-path-editor/)
+- [Extract Svg From Path](https://jakearchibald.github.io/svgomg/)
