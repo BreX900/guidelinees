@@ -7,8 +7,8 @@ Should be called as close as possibile to the root
  Theme.of(context)
 ```
 
-Widget build
-```
+## Widgets order
+```dart
 // initialize first logic values
 final authCubit = context.read<AuthCubit>(context);
 // than initialize ui values
@@ -21,4 +21,25 @@ BlocProvider(
   …
   )
 )
+```
+
+## Widget attributes order
+
+Follow this order:
+- controller/bloc/cubit
+- entity
+- attributes
+- methods
+- decoration
+- widgets
+
+```dart
+ScaffoldBloBuilder(
+  bloc: scaffoldBloc,
+  isEnabled: true,
+  padding: const EdgetInsents.all(16.0),
+  onTap: () => print('Tapped'),
+  decoration: InputDecoration(),
+  child: Text('Scaffold Child'),
+),
 ```
