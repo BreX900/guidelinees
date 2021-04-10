@@ -41,6 +41,20 @@ abstract class $NAME$ implements Built<$NAME$, $NAME$Builder> {
 }
 ```
 
+## bltvlnzlzbldr
+```dart
+static void _inizializeBuilder($NAME$ b) {
+  b$END$;
+}
+```
+
+## bltvlfnlzbldr
+```dart
+static void _finalizeBuilder($NAME$ b) {
+  b$END$;
+}
+```
+
 ## bltnm
 ```dart
 class $NAME$ extends EnumClass {
@@ -59,6 +73,6 @@ class $NAME$ extends EnumClass {
 
 ## bltnmvl
 ```dart
-const static $NAME$ $value$ = _$$$value$;
+static const $NAME$ $value$ = _$$$value$;
 ```
 
