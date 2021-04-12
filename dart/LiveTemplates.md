@@ -43,7 +43,7 @@ abstract class $NAME$ implements Built<$NAME$, $NAME$Builder> {
 
 ## bltvlnzlzbldr
 ```dart
-static void _inizializeBuilder($NAME$ b) {
+static void _initializeBuilder($NAME$ b) {
   b$END$;
 }
 ```
