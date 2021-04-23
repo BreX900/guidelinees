@@ -23,23 +23,35 @@ BlocProvider(
 )
 ```
 
+## Widget class 
+  - Attributes
+  - Constructors
+  - Factory
+  - Widget Methods
+  - Logic Methods
+  - Ui Mehtods
+
 ## Widget attributes order
 
 Follow this order:
-- controller/bloc/cubit
-- entity
-- attributes
-- methods
+- Controller/Bloc/Cubit
+- Entity/Data
+- General Attributes
+- UI Attributes
 - decoration
-- widgets
+- Logic methods
+- Build Methods
+- Widgets
 
 ```dart
 ScaffoldBloBuilder(
   bloc: scaffoldBloc,
+  data: MyData(),
   isEnabled: true,
   padding: const EdgetInsents.all(16.0),
-  onTap: () => print('Tapped'),
   decoration: InputDecoration(),
+  onTap: () => print('Tapped'),
+  builder: (context) => Button(),
   child: Text('Scaffold Child'),
 ),
 ```
