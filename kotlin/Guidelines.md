@@ -9,3 +9,6 @@
 - UI updates
 - UI actions
 - Failures handling
+
+
+Add the .editorconfig file to have a nice editor mode
