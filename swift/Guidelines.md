@@ -1,3 +1,20 @@
+# Order of the methods and declaration
+
+- a view controller must be named with `ViewController` at the end like `HomePageViewController`
+- a storyboard is named like `HomePage.storyboard`
+- IBOutlet
+- private class variables
+- `@Published` variables if presents
+- `viewDidLoad`
+- translation methods if present (ex. localize)
+- other view's override methods ordered by iOS lifecycle
+- `@IBAction` like buttons and switches 
+- private `func`
+- save actions if present (like top right save)
+- handleErrors 
+- extentions
+- delegates
+
 # Installation and running scripts
 
 - Install [swiftlint](https://github.com/realm/SwiftLint) with command: `brew install swiftlint`
