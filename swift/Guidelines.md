@@ -3,7 +3,7 @@
 - Install [swiftlint](https://github.com/realm/SwiftLint) with command: `brew install swiftlint`
 - Install [swiftformat](https://github.com/nicklockwood/SwiftFormat) with command: `brew install swiftformat `
 - Add in your project in a folder called _scripts_ the two scripts below
-- [**swiftformat**](scripts/swiftformat) :
+- [**swiftformat**](scripts/swiftformat.zsh) :
 
 ```
 #!/bin/zsh
@@ -25,7 +25,7 @@ else
 fi
 ```
 
-- [**swiftlint**](scripts/swiftlint) :
+- [**swiftlint**](scripts/swiftlint.zsh) :
 
 ```
 #!/bin/zsh
