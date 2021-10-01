@@ -5,7 +5,7 @@
 - Add in your project in a folder called _scripts_ the two scripts below
 - [**swiftformat**](scripts/swiftformat.zsh) :
 
-```
+```zsh
 #!/bin/zsh
 
 REQUIRED_SWIFTFORMAT_VERSION='0.48.11'
@@ -27,7 +27,7 @@ fi
 
 - [**swiftlint**](scripts/swiftlint.zsh) :
 
-```
+```zsh
 #!/bin/zsh
 
 REQUIRED_SWIFTLINT_VERSION='0.44.0'
