@@ -2,7 +2,7 @@
 
 - a view controller must be named with `ViewController` at the end like `HomePageViewController`
 - a storyboard is named like `HomePage.storyboard`
-- IBOutlet
+- `IBOutlet` (buttons, switches, labels ecc)
 - private class variables
 - `@Published` variables if presents
 - `viewDidLoad`
