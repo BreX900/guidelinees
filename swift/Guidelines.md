@@ -74,4 +74,7 @@ and make them runnable: `cdmod 775 FileName` from terminal
 
 ![Image of settings in xCode](scripts_screenshot.png)
 
+if you want you can create 2 different Run Scripts clicking the + in the top left corner
+
+
 - run the app
