@@ -20,8 +20,8 @@
 - Install [swiftlint](https://github.com/realm/SwiftLint) with command: `brew install swiftlint`
 - Install [swiftformat](https://github.com/nicklockwood/SwiftFormat) with command: `brew install swiftformat `
 - Add in your project in a folder called _scripts_ the two scripts below
-	- [**swiftformat**](scripts/swiftformat.zsh) 
-	- [**swiftlint**](scripts/swiftlint.zsh) 
+	- [**swiftformat**](https://gist.github.com/GabM3/c0b7c991b80360254c334c16a3a96b65) 
+	- [**swiftlint**](https://gist.github.com/GabM3/762d141302d7c521093aa3c683f908de) 
 
 
 
