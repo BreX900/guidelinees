@@ -38,6 +38,32 @@ type Zero = RandomNumberType & {
 type RandomNumber = PositiveNumber | NegativeNumber | Zero;
 ```
 
+### String literal type
+
+```typescript
+type Example = "value1" | "value2" | "value3";
+```
+
+### Template literal types
+
+```typescript
+type HorizontalPosition = "left" | "center" | "right";
+
+type VerticalPosition = "top" | "center" | "bottom";
+
+/* Result:
+ * "left-top", "left-center", "left-bottom",
+ * "center-top", "center-center", "center-bottom"
+ * "right-top", "right-center", "right-bottom"
+ */
+type AllPrecisePositions = `${HorizontalPosition}-${VerticalPosition}`;
+
+// Replace "center-center" with "center"
+type PrecisePositions =
+  | Exclude<`${HorizontalPosition}-${VerticalPosition}`, "center-center">
+  | "center";
+```
+
 ### Translations
 
 Use `pt` for the general translations, `t` for the current translations.
@@ -56,4 +82,3 @@ When writing a component, sort your component code in this order (top bottom):
 3. Component's logic
 4. If needed, internal functions that generates html
 5. Final return with the html of the component
-
