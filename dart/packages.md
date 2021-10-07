@@ -12,3 +12,7 @@
 ### GENERATOR CODE UTILS
 - [code_builder](https://pub.dev/packages/code_builder) A fluent, builder-based library for generating valid Dart code.
 - [dart_style](https://pub.dev/packages/dart_style) The dart_style package defines an automatic, opinionated formatter for Dart code.
+
+
+# INFORMATIONS
+- [local_auth](https://pub.dev/packages/local_auth) [See this document](https://gist.github.com/akifarhan/f70a2c777651f2ea61a15eb92a5939c1)
