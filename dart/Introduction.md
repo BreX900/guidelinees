@@ -2,6 +2,11 @@
 - Capire il funzionamento base [Main Docs](https://flutter.dev/docs/development/ui/widgets-intro)
 - Installa Flutter [Install Flutter Docs](https://flutter.dev/docs/get-started/install)
 
+### IntelliJ
+
+- Abilita o installa il plugin `Android`
+- Vai in `Appearance & Behaviour`/`System Settings`/`Android SDK` e imposta la location
+
 ### Widgets
 - Consci i widget base: 
   * [Weekly Widget](https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG) 
