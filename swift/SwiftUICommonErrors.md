@@ -29,7 +29,7 @@ var body: some View {
   }
 }
 ```
-This is gonna work most of the time, but occasionally, randmoly, it fails and this is the wrong modifier wrapper to use.
+This is gonna work most of the time, but occasionally, randomly, it fails and this is the wrong modifier wrapper to use.
 ```swift
 class DataModel: Observable0bject {
   @Published var username = "Hello, World!"
@@ -174,7 +174,7 @@ var body : some View {
       showingAlert = true
     }
   }
-  //here you are observing then the value became true
+  // here you are observing then the value became true
   .alert(isPresented: $showingAlert){
     Alert(title: Text("Hello, \(selectedUser!.id)"))
   }
@@ -191,7 +191,7 @@ var body : some View {
       selectedUser = User(id: "@GabM3") 
     }
   }
-  //watch that value of the user when is not nil
+  // watch that value of the user when is not nil
   // and pass it to the content when is set or changes
   .alert(item: $selectedUser){ user in
     Alert(title: Text("Hello, \(user.id)"))
