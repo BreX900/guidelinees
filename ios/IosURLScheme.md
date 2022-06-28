@@ -4,50 +4,75 @@ Not sure how many would use this but here's a short list I have for URL Schemes 
 
 It's incomplete and others may wish to add to this
 
-- Photos photos-redirect
+- Photos: `photos-redirect`
 
-- Voice Memos voicememos:// Won't work except within Notification Center
+- Voice Memos: `voicememos://` Won't work except within Notification Center
 
-- Apple News applenews:
+- Apple News: `applenews:`
 
-- Videos Videos:
+- Videos: `Videos:`
 
-- Brightness launch://brightness/
+- Brightness: `launch://brightness/`
 
-- Notes mobilenotes:
+- Notes: `mobilenotes:`
 
-- Reminders x-apple-reminder://
+- Reminders: `x-apple-reminder://`
 
--  Watch itms-watch:
+-  Watch: `itms-watch:`
 
-- Remote remote://
+- Remote: `remote://`
 
-- Phone Dial launch://dial
+- Phone Dial `launch://dial`
 
-- Calendar calshow:
+- Calendar `calshow:`
 
-- Flashlight launch://light
+- Flashlight `launch://light`
 
-- Mail message://
+- Mail:
+    
+    - iOS mail: `message://` 
+    - Gmail: `googlegmail://`
+    - Yahoo": `ymail://`
+    - Outlook: `ms-outlook://`
+    - Spark: `readdle-spark://`
 
-- Find My iPhone fmip1:
 
-- Podcasts pcast:
+- Find My iPhone: `fmip1:`
 
-- iBooks ibooks:
+- Podcasts: `pcast:`
 
-- GarageBand garageband:
+- iBookss: `ibooks:`
 
-- Trailers movietrailers:
+- GarageBands: `garageband:`
 
-- iTunesU itms-itunesu:
+- Trailerss: `movietrailers:`
 
-- iMovie fb309481925768757:
+- iTunesUs: `itms-itunesu:`
 
-- App Store Search itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
+- iMovies: `fb309481925768757:`
 
-- App Store Top Paid itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&popId=30
+- App Store Searchs: `itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=`
 
-- Use to work Keynote comapplekeynote://keynote
+- App Store Top Paids: `itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&popId=30`
 
-- Pages app://pages
+- Use to work Keynotes: `comapplekeynote://keynote`
+
+- Pagess: `app://pages`
+
+- Alarm Clocks: `clock-alarm://`
+
+- World Clocks: `clock-worldclock://`
+
+- Stopwatchs: `clock-stopwatch://`
+
+- Musics: `music:`
+
+- Timers: `clock-timer://`
+
+- Wi-Fis: `prefs:root=WIFI`
+
+- Bluetooths: `prefs:root=Bluetooth`
+
+- Batterys: `prefs:root=BATTERY_USAGE`
+
+- Keyboards: `prefs:root=General&path=Keyboard`
